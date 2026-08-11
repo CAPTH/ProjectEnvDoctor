@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.doctor.ProjectEnvDoctor</id>
+    <name>ProjectEnvDoctor</name>
+    <vendor email="demo@demo.com" url="https://github.com">dev</vendor>
+    <description>Project environment check tool.</description>
+    <idea-version since-build="261"/>
+    <actions>
+        <!-- 必须给group加上 text=""！！ -->
+        <group id="ProjectEnvDoctor.ProjectPopupGroup"
+               text="项目环境工具"
+               popup="false">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+
+            <action id="com.doctor.action.ScanEnvAction"
+                    class="com.doctor.action.ScanEnvAction"
+                    text="项目环境一键检测"
+                    description="扫描当前项目环境信息">
+            </action>
+        </group>
+    </actions>
+</idea-plugin>
