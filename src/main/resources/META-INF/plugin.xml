@@ -2,8 +2,11 @@
     <id>com.doctor.ProjectEnvDoctor</id>
     <name>ProjectEnvDoctor</name>
     <vendor email="jht211314@gmail.com">AIyisuifeng</vendor>
-    <description>Project environment check tool.</description>
+    <description>ProjectEnvDoctor is an IntelliJ IDEA plugin for one-click project environment diagnosis. It checks JDK configuration, build tool setup, file encoding, and Git ignore rules, providing color-coded results with actionable fix suggestions.</description>
     <idea-version since-build="261"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
     <actions>
         <!-- 必须给group加上 text=""！！ -->
         <group id="ProjectEnvDoctor.ProjectPopupGroup"

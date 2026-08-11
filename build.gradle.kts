@@ -9,7 +9,7 @@ plugins {
 intellijPlatform {
     pluginConfiguration {
         version = project.version.toString()
-        description = "Project environment check tool."
+        description = "ProjectEnvDoctor is an IntelliJ IDEA plugin for one-click project environment diagnosis. It checks JDK configuration, build tool setup, file encoding, and Git ignore rules, providing color-coded results with actionable fix suggestions."
     }
 }
 
