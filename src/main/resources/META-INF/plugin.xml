@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.doctor.ProjectEnvDoctor</id>
     <name>ProjectEnvDoctor</name>
-    <vendor email="demo@demo.com" url="https://github.com">dev</vendor>
+    <vendor email="jht211314@gmail.com">AIyisuifeng</vendor>
     <description>Project environment check tool.</description>
     <idea-version since-build="261"/>
     <actions>
